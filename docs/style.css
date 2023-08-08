@@ -33,6 +33,21 @@ body {
     border: 5px solid var(--main-color);
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: var(--main-color);
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: var(--main-color-darker);
+  border: 2px solid var(--main-color);
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+
 /* animations */
 @keyframes sussin {
     from {
